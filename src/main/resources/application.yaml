@@ -1,0 +1,11 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 25MB
+      max-request-size: 25MB
+server:
+  port: 8081
+yandex-cloud:
+  bucket-name: mystery-51
+  access-key: YCAJE1RYEKkmcdCVALyHuyydF
+  secret-key: YCMbk3Zf-dg0u-A-gkvzBkXxsJpeiq5n-Fid-j6Z
