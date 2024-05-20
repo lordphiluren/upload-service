@@ -1,6 +1,6 @@
 FROM gradle:jdk21-alpine as builder
 WORKDIR /app
-COPY . /app/.
+COPY . /app/
 RUN gradle clean build -x test
 
 FROM eclipse-temurin:21-jre-alpine
