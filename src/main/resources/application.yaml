@@ -6,6 +6,6 @@ spring:
 server:
   port: 8081
 yandex-cloud:
-  bucket-name: somename
-  access-key: somekey
-  secret-key: somesecret
+  bucket-name: ${BUCKET_NAME}
+  access-key: ${ACCESS_KEY}
+  secret-key: ${SECRET_KEY}
